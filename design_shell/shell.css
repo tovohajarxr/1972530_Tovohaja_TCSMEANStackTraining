@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+
+.slot {
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 10px;
+    border: solid green 2px;
+} .slot:hover {
+    border: solid black 2px;
+    width: 220px;
+    height: 260px;
+    font-size: 30px;
+    transition: width 0.5s, height 0.5s, font-size 0.5s;
+}
+
+#d1 {
+    background-image: url("https://cdn.architecturelab.net/wp-content/uploads/2014/07/chhatrapati.jpg");
+    background-size: 270%;
+    background-position-x: -130px;
+}
+
+#d2 {
+    background-image: url("https://www.arch2o.com/wp-content/uploads/2017/11/Arch2O-10-of-the-most-iconic-buildings-of-modern-architecture-1.jpg");
+    background-size: 230%;
+    background-position-x: -75px;
+
+}
+
+#d3 {
+    background-image: url("http://25.media.tumblr.com/38e5f07b7bc0b5e17f08393a50ef1d3b/tumblr_mt6zh0wkHG1s7jtjoo1_1280.jpg");
+    background-size: 230%;
+    background-position-x: -75px;
+}
+
+#d4 {
+    background-image: url("https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2017/08/18172907/stpaulsceiling.jpg");
+    background-size: 230%;
+    background-position-x: -105px;
+
+}
+
+#d5 {
+    background-image: url("https://i.pinimg.com/originals/b1/a7/1b/b1a71b7740bc5e157817aa9c8ed87f6f.jpg");
+    background-size: 190%;
+    background-position-x: -75px;
+}
+
+.content {
+    width: 75%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-family: fantasy;
+}
+
+.title {
+    animation: anime 10s linear 0s infinite alternate;
+}
+
+.ball {
+    position: absolute;
+    left: 5%;
+    top: 6%;
+    width: 10px;
+    height: 10px;
+    background-color: darkcyan;
+    animation: move 20s linear 0s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes move {
+    100% {transform: translateX(27rem)}
+}
+
+@keyframes anime {
+    0% { color: darkcyan }
+    25% { color: seagreen}
+    50% { color: saddlebrown}
+    75% { color: steelblue }
+    100% { color: black }
+}
