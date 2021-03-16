@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TBP - Program Managers</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <style> body { background-color: lightgray; } </style>
+
+</head>
+
+<body>
+    <h1 class="title">Program Managers</h1>
+    <div class="form-container">
+        <h3>Add New Budget</h3>
+            <form id="pm-form">
+                <div class="form-group">
+                    <label>Client Name</label>
+                    <input type="text" class="form-control" id="client_name" placeholder="Enter client name">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your client's name with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label>Project Name</label>
+                    <input type="text" class="form-control" id="project_name" placeholder="Enter project name">
+                </div>
+                <div class="form-group">
+                        <label>Budget</label>
+                        <input type="number" class="form-control" id="budget" placeholder="Enter budget in USD">
+                    </div>
+
+                <button type="button" class="btn btn-success" onclick="on_form_submit()">Add</button>
+                <button type="button" class="btn btn-danger" onclick="clear_form()">Clear</button>
+            </form>
+    </div>
+    <a href="main.html"><button type="button" class="btn btn-primary">Back</button></a> 
+</body>

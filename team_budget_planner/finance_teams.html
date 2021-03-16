@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TBP - Finance Teams</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <style> body { background-color: lightgray; } </style>
+</head>
+
+<body>
+    <h1 class="title">Finance Teams</h1>
+    <div class="form-container">
+        <h3>Annual Budget</h3>
+        <table class="table table-striped" id="finances_table">
+                <thead class="thead-blue">
+                  <tr>
+                    <th scope="col">Client Name</th>
+                    <th scope="col">Project Name</th>
+                    <th scope="col">Budget</th>
+                  </tr>
+                </thead>
+                <tbody id="finances_table_rows">
+                    <script>
+                        insert_all_records();
+                        insert_total();
+                    </script>
+                </tbody>
+              </table>
+    </div>
+    <a href="main.html"><button type="button" class="btn btn-primary">Back</button></a> 
+</body>

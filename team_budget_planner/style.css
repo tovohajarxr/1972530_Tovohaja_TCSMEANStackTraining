@@ -1,0 +1,73 @@
+/* CSS */
+
+body {
+    background-color: whitesmoke;
+}
+
+.panel {
+    text-align: center;
+    width: 45%;
+    margin: 20px;
+} .panel:hover {
+    width: 75%;
+    transition: width 0.5s;
+} 
+
+.panel-body {
+    padding: 100px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode'
+                ,'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+} 
+
+.panel-PM {
+    background-image: url("https://www.wrike.com/blog/content/uploads/2017/06/blogpost_image_program-manager-vs-project-manager.jpg");
+    background-size: 100%;
+} 
+
+.panel-FT {
+    background-image: url("https://www.fm-magazine.com/content/dam/cgma/magazine/publishingimages/cgma-finance-team-510-x-221.jpg.transform/767w/image.png");
+    background-size: 100%;
+}
+
+.form-container {
+    margin: 50px auto;
+    border: solid #337ab7 3px;
+    border-radius: 25px;
+    padding: 50px;
+    width: 50%;
+    background-color: white
+}
+
+.form-group {
+    width: 75%;
+    margin: 20px auto;
+}
+
+h3 {
+    text-align: center;
+    /* color: #337ab7; */
+    font-weight: 700
+}
+
+button {
+    margin: 0px 75px;
+    width: 100px;
+}
+
+.thead-blue {
+    background-color: #337ab7;
+    color: white;
+}
+
+table {
+    margin-top: 20px;
+}
