@@ -1,0 +1,200 @@
+/* CSS */
+
+:root {
+    --bluu: #264653;
+    --bulu: #2a9d8f;
+    --yellio: #e9c46a;
+    --orangio: #f4a261;
+    --tomatio: #e76f51;
+}
+
+/* ======================== TOP ======================== */
+.nav-item {/* bootstrap-override */
+    margin-right: 50px;
+} 
+
+
+.my-feather{
+    font-size: 25px;
+    margin-left: 20px;
+} .my-feather:hover {
+    color: #e9c46a;
+} .my-feather:active {
+    color: #e76f51;
+}
+
+.welcome-tag {
+    position: relative;
+    top: 40vh;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #e9c46a;
+    background-color: rgba(0, 0, 0, 50%);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 1s ease-in-out;
+} .welcome-tag:hover {
+    transform: scale(1.10);
+    color: white
+}
+
+
+h1,h2,h3,h5 {
+    text-align: center;
+}
+
+.white {
+    color: white;
+} .black {
+    color: black;
+} .bluu {
+    color: #264653;
+}
+
+/* ======================== CONTAINERS ======================== */
+
+.container-fluid { /* bootstrap-override */
+    height: 100vh;
+}
+
+.blur-image {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.container-top {
+    background-image: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/483000/483507-biloxi-beach.jpg");
+    background-size:     cover;  /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.container-mid {
+    padding: 50px;
+    background-color: #264653;
+    height: 100%;
+    display: flex
+}
+
+.container-bottom {
+    padding: 50px;
+    height: 100%;
+    background-color: #264653;
+}
+
+/* ======================== MID ======================== */
+
+.article {
+    min-height: 80vh;
+    width: 90%;
+    /* border: solid black 2px; */
+    background-color: whitesmoke;
+    border-radius: 25px;
+    margin: auto;
+    padding: 20px;
+}
+
+.article-left, .article-right {
+    /* border: solid black 2px; */
+    border-radius: 25px;
+    width: 4%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+} .article-left:hover, .article-right:hover {
+    background-color: #e76f51;
+} .article-left:active, .article-right:active {
+    background-color:#e9c46a;
+}
+
+.article-images-container {
+    /* border: solid black 2px; */
+
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px
+}
+
+.article-image {
+    border-radius: 25px;
+    height: 80px;
+    width: 80px;
+    margin: auto 10px;
+    transition: all .2s ease-in-out;
+} .article-image:hover {
+    transform: scale(1.25);
+}
+
+.text-container {
+    width: 85%;
+    min-height: 400px;
+    margin: auto;
+    padding: 10px 50px;
+    text-indent: 50px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.article-content {
+    margin: 10px;
+}
+
+
+/* ======================== CARDS ======================== */
+
+.card { /* bootstrap-override */
+    width: 20%;
+    margin: 20px;
+    transition: all .2s ease-in-out;
+} .card:hover {
+    transform: scale(1.10);
+} .card:active {
+    background-color: #2a9d8f;
+}
+
+
+/* ======================== BOTTOM ======================== */
+
+.social-media-icon {
+    color: #e9c46a;
+    width: 50px;
+    height: 50px;
+    margin: 20px
+} .social-media-icon:hover {
+    color: #e76f51;
+    
+}
+
+footer {
+    background-color: black;
+    text-align: center
+}
+
+/* ======================== MODAL ======================== */
+.editor-screen {
+    margin: 50px;
+    height: 700px;
+}
+
+.add-image-btn {
+    position: relative;
+    left: -50%;
+} 
+
+.image-upload>input {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
