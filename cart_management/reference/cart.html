@@ -1,0 +1,33 @@
+<div id="sidebar">
+        <table class="table table-striped" id="content">
+            <thead class="thead-blue">
+                <tr>
+                <th scope="col">img</th>
+                <th scope="col">name</th>
+                <th scope="col">qty</th>
+                <th scope="col">cost</th>
+                </tr>
+            </thead>
+            <tbody id="finances_table_rows">
+                <tr>
+                    <td><img class="cart-img-icon" src="img/glasses.jpeg"></td>
+                    <td>${data.project_name}</td>
+                    <td>${convert_num_to_usd(data.budget)}</td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+
+<div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white">Collapsed content</h4>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>

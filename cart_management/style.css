@@ -1,0 +1,105 @@
+
+/* ======================== TAGS ======================== */
+h1 {
+    text-align: center;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 30px;
+    background-color: whitesmoke;
+    border-bottom: solid black 1px;
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+} 
+
+body {
+    background-image: url("img/wall.jpeg")
+}
+
+/* ======================== CART ======================== */
+#cart {
+    top: 10%;
+    float: right;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    border-radius: 25px;
+    word-wrap: break-word;
+    transition: all .3s ease-in-out;
+    font-size: 15px;
+} #cart:hover {
+    transform: scale(1.05);
+} #cart:active {
+    background-color: blueviolet;
+}
+
+.cart-img-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.compressed {
+    display: none;
+}
+
+.cart-control {
+    display: inline-flex;
+}
+
+/* ======================== CARDS ======================== */
+
+.card { /* bootstrap-override */
+    width: 20%;
+    margin: 20px;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+} .card:hover {
+    transform: scale(1.10);
+}
+
+/*
+} .card:active {
+    background-color: #2a9d8f;
+} */
+
+.card-img-top {
+    /* height: 50%; */
+}
+
+.editing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fas {
+    margin: 10px;
+    font-size: 30px;
+    transition: all .2s ease-in-out;
+} .fas:hover {
+    transform: scale(1.10);
+} .fas:active {
+    color: blueviolet;
+}
+
+.fa-minus-circle:active {
+    color: red;
+}
+.fa-plus-circle:active {
+    color: green;
+}
+
+.fa-shopping-cart {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
