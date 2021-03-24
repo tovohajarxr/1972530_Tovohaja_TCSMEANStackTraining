@@ -155,4 +155,3 @@ function removeFromCart(id: number) {
     loadNumAdded();
     loadCartTotal();
 }
-
