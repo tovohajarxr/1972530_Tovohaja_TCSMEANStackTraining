@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* ================================ F O R M ================================ */
+.form-container {
+  position: relative;
+  width: 50%;
+  padding: 40px;
+  min-height: 500px;
+  border: solid black 2px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.btn {
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ditto {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+}

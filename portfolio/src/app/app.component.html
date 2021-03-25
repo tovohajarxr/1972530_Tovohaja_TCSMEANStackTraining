@@ -1,8 +1,16 @@
-<div>
-    <a routerLink="login">Login</a>
-    <a routerLink="register">Register</a>
-    <a routerLink="landing">landing page</a>
 
-    <hr/>
-    <router-outlet></router-outlet>
+<!-- Navigation bar -->
+<nav>
+  <div class="nav-wrapper">
+    <a class="brand-logo my-logo">portfolio</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a routerLink="login">Login</a></li>
+      <li><a routerLink="register">Register</a></li>
+      <li><a routerLink="landing">landing page</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div>
+  <router-outlet></router-outlet>
 </div>

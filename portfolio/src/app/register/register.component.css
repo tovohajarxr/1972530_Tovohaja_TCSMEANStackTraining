@@ -1,0 +1,11 @@
+* {
+  text-align: center;
+}
+
+.form-container {
+  width: 500px;
+}
+
+.btn + .btn { /* spacing in between */
+  margin-left: 100px;
+}

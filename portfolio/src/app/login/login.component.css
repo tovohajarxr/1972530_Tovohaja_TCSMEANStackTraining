@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+}
+
+.form-container {
+  width: 500px;
+}
+
+.btn {
+  margin-top: 150px;
+}
+
+input {
+  text-align: start;
+}
+
+.btn + .btn { /* spacing in between */
+  margin-left: 40px;
+}
+
+.my-sign-up-btn {
+  background-color: gray;
+}
