@@ -86,16 +86,7 @@ initOverviewPage(): void {
     sessionStorage.setItem('experience', JSON.stringify(experience));
   }
 
-  /*
-  key: reference
-    let firstName = '';
-    let lastName = '';
-    let company = '';
-    let relationship = '';
-    let phone = '';
-    let description = '';
-  */
-    // References
+  // References
   const references: any = [
     { firstName: 'Benjamin', lastName: 'Butter', company: 'Google', relationship: 'Manager', phone: '456-223-1978',
       description:
@@ -173,6 +164,7 @@ initOverviewPage(): void {
     } else {
       alert('Please fill all fields!');
     }
+    this.displaySkills();
   }
 
 /* ===================== E X P E R I E N C E ================================ */
@@ -212,6 +204,7 @@ initOverviewPage(): void {
     } else {
       alert('Please fill all fields!');
     }
+    this.displayXPs();
   }
 
   /* ===================== R E F E R E N C E ================================ */
@@ -262,6 +255,7 @@ initOverviewPage(): void {
     } else {
       alert('Please fill all fields!');
     }
+    this.displayReferences();
   }
 
 /* ======================= D I S P L A Y S ================================== */
