@@ -10,6 +10,7 @@
   background-color: white;
   margin: auto;
   margin-bottom: 100px;
+  border-radius: 25px;
 }
 
 body {
@@ -22,10 +23,10 @@ body {
   margin-bottom: 40px;
 }
 
-.ditto {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 20px;
-  text-decoration: underline;
+.my-button-effect {
+  transition: ease-in-out 0.1s all;
+} .my-button-effect:hover {
+  transform: scale(1.10);
+} .my-button-effect:active {
+  background-color: blueviolet !important;
 }

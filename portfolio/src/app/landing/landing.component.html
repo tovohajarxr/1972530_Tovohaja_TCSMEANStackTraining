@@ -27,6 +27,7 @@
           contributed as many significant works to the piano's repertoire, or
           come closer to capturing its soul.        
         </p>
+        <i class="far fa-thumbs-up right"> 56k</i> 
       </div>
       
       <!------------------- S K I L L S ------------------->
@@ -52,8 +53,8 @@
                   <div class="title">UI/UX Design</div>
                 </div>
                 <div class="col s6 m8 l8">
-                  <div class="progress green lighten-5">
-                    <div class="determinate green darken-2" style="width: 70%"></div>
+                  <div class="progress purple lighten-5">
+                    <div class="determinate purple darken-2" style="width: 70%"></div>
                   </div>
                 </div>
               </div>
@@ -72,8 +73,8 @@
                   <div class="title">Communication</div>
                 </div>
                 <div class="col s6 m8 l8">
-                  <div class="progress red lighten-5">
-                    <div class="determinate red darken-2" style="width: 80%"></div>
+                  <div class="progress pink lighten-5">
+                    <div class="determinate pink darken-2" style="width: 80%"></div>
                   </div>
                 </div>
               </div>
@@ -94,9 +95,9 @@
               <ul class="collection collection-resume z-depth-1">
                 <li class="collection-item avatar">
                   <i class="fas fa-briefcase circle green darken-2"></i>
-                  <span class="ultra-small red-text darken-2 right">PRESENT</span>
+                  <span class="ultra-small green-text darken-2 right">2016 - 2018</span>
                   <div class="title">Facebook Inc.</div>
-                  <span class="tag red darken-2">Art Director</span>
+                  <span class="titular">Art Director</span>
                 </li>
                 <li class="collection-item">
                   <p>
@@ -134,16 +135,131 @@
 
 <!-- ===================== ADD SKILL FORM ================================== -->
     <div id="add-skill">
-      ADD SKILL FORM
+      <h5 class="center">Add a Skill</h5>
+      <div class="row form-container skill-form">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s9">
+              <p>
+                  <label>
+                    <input name="group" type="radio" checked />
+                    <span>Tech skill</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="group" type="radio" />
+                    <span>Soft skill</span>
+                  </label>
+                </p>
+            </div>
+            <div class="input-field col s9">
+              <input  type="text" class="validate">
+              <label >Skill</label>
+            </div>
+            <div class="input-field col s3">
+              <input  type="number" class="validate" min="0" max="100">
+              <label >XP</label>
+              <span class="helper-text" data-error="wrong" data-success="ok"> 1 - 100</span>
+            </div>
+          </div>
+
+          <div class="my-buttons">
+            <button class="btn my-button-effect waves-light btn-large my-button" type="submit" name="action">Submit
+              <i class="fas fa-plus right"></i>
+            </button>
+            <button class="btn btn-large my-button-effect waves-light red" type="reset">
+                <i class="fas fa-times"></i>
+            </button>
+          </div>
+
+        </form>
+      </div>    
     </div>
 
 <!-- ===================== ADD EXPERIENCE FORM ============================= -->
     <div id="add-experience">
-      ADD EXPERIENCE FORM
+      <h5 class="center">Add Experience</h5>
+      <div class="row form-container experience-form">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s4">
+              <input type="text" class="validate">
+              <label >Company</label>
+            </div>
+            <div class="input-field col s4">
+              <input type="text" class="validate">
+              <label >Title</label>
+            </div>
+            <div class="input-field col s4">
+                <input type="text" class="validate">
+                <label >Time frame</label>
+              </div>
+            <div class="input-field col s12">
+              <textarea id="textarea" class="materialize-textarea"></textarea>
+              <label for="textarea">Description</label>
+            </div>
+          </div>
+
+          <div class="my-buttons">
+            <button class="btn my-button-effect waves-light btn-large my-button" type="submit" name="action">Submit
+              <i class="fas fa-plus right"></i>
+            </button>
+            <button class="btn btn-large my-button-effect waves-light red" type="reset">
+                <i class="fas fa-times"></i>
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+       
     </div>
 
 <!-- ===================== ADD REFERENCE FORM ============================== -->
     <div id="add-reference">
-      ADD REFERENCE FORM
+      <h5 class="center">Add a Reference</h5>
+      <div class="row form-container reference-form">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input  type="text" class="validate">
+              <label >First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input type="text" class="validate">
+              <label >Last Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input type="text" class="validate">
+              <label >Company</label>
+            </div>
+            <div class="input-field col s6">
+              <input type="text" class="validate">
+              <label >Relationship</label>
+            </div>
+            <div class="input-field col s4">
+              <input type="tel" class="validate" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <label >Phone</label>
+              <span class="helper-text" data-error="wrong" data-success="ok"> eg. 301-333-4444</span>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="textarea" class="materialize-textarea"></textarea>
+              <label for="textarea">Description</label>
+            </div>
+          </div>
+
+          <div class="my-buttons">
+            <button class="btn my-button-effect waves-light btn-large my-button" type="submit" name="action">Submit
+              <i class="fas fa-plus right"></i>
+            </button>
+            <button class="btn btn-large my-button-effect waves-light red" type="reset">
+                <i class="fas fa-times"></i>
+            </button>
+          </div>
+          
+        </form>
+        
+      </div>
     </div>
 

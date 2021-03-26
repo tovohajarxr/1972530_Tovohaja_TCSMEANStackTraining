@@ -32,3 +32,19 @@ h1, h2 {
 .my-tabs {
   margin-bottom: 30px;
 }
+
+.titular {
+  font-style: italic;
+}
+
+.btn + .btn {
+  margin-left: 100px;
+}
+
+.my-buttons {
+  text-align: center;
+}
+
+.skill-form, .experience-form, .reference-form {
+  min-height: 300px;
+}
