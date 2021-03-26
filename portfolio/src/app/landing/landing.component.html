@@ -45,8 +45,9 @@
         
         <!-- skills left -->
         <div class="col s12 m12 l6 my-skills-col">
-          <ul class="collection collection-skills z-depth-1">
+          <ul class="collection collection-skills z-depth-1"  [innerHTML]="techSkillsHTML">
 
+            <!----- tech skills item model (deprecated) ----------------------->
             <li class="collection-item">
               <div class="row">
                 <div class="col s6 m4 l4">
@@ -54,31 +55,36 @@
                 </div>
                 <div class="col s6 m8 l8">
                   <div class="progress purple lighten-5">
+                    <!-- TBD: Why doesn't this work when ${80} is dynamically loaded ? -->
                     <div class="determinate purple darken-2" style="width: 70%"></div>
                   </div>
                 </div>
               </div>
             </li>
-            
+            <!----------------------------------------------------------------->
+
           </ul>
         </div>
 
         <!-- skills right -->
         <div class="col s12 m12 l6 my-skills-col">
-          <ul class="collection collection-skills z-depth-1">
+          <ul class="collection collection-skills z-depth-1" [innerHTML]="softSkillsHTML">
 
+            <!------------------ soft skills item model (deprecated) ---------->
             <li class="collection-item">
               <div class="row">
                 <div class="col s6 m4 l4">
                   <div class="title">Communication</div>
                 </div>
                 <div class="col s6 m8 l8">
-                  <div class="progress pink lighten-5">
-                    <div class="determinate pink darken-2" style="width: 80%"></div>
+                  <div class="progress pink lighten-5"> 
+                    <!-- TBD: Why doesn't this work when ${80} is dynamically loaded ? -->
+                    <div class="determinate pink darken-2" style="width: 80%"></div> 
                   </div>
                 </div>
               </div>
             </li>
+            <!----------------------------------------------------------------->
             
           </ul>
         </div>
@@ -89,8 +95,9 @@
           <h5 class="grey-text text-darken-2">Experience</h5>
 
           <!-- XP items -->
-          <div class="row my-experience" id="experience-items">
+          <div class="row my-experience" id="experience-items" [innerHTML]="xpHTML">
 
+            <!------------------ experience item model (deprecated) ----------->
             <div class="col s12 m12 l6">
               <ul class="collection collection-resume z-depth-1">
                 <li class="collection-item avatar">
@@ -101,19 +108,27 @@
                 </li>
                 <li class="collection-item">
                   <p>
-                    Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta iriure at. Ubique maluisset vel te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Lorem ipsum dolor sit amet, in quodsi.
+                    Lorem ipsum dolor sit amet, in quodsi vulputate pro. 
+                    Ius illum vocent mediocritatem an, cule dicta iriure at. 
+                    Ubique maluisset vel te, his dico vituperata ut. 
+                    Pro ei phaedrum maluisset. 
+                    Ex audire suavitate has, ei quodsi tacimates sapientem sed, 
+                    pri zril ubique ut. Lorem ipsum dolor sit amet, in quodsi.
                   </p>
                 </li>
               </ul>
             </div>
+            <!----------------------------------------------------------------->
 
           </div>
         </div>
 
         <!------------------- R E F E R E N C E S ------------------->
         <h5 class="grey-text text-darken-2 left-align">References</h5>
-        <div class="row my-references" id="experience-items">
-          <div class="col s12 m12 l3">
+        <div class="row my-references" id="experience-items" [innerHTML]="refHTML">
+          
+          <!------------------ reference item model (deprecated) ----------->
+          <div class="col s12 m12 l4">
             <ul class="collection collection-resume z-depth-1">
               <li class="collection-item avatar">
                 <i class="fas fa-phone circle blue darken-2"></i>
@@ -129,6 +144,8 @@
             </ul>
           </div>
         </div>
+        <!--------------------------------------------------------------------->
+
       </div>
 
     </div>
@@ -137,28 +154,28 @@
     <div id="add-skill">
       <h5 class="center">Add a Skill</h5>
       <div class="row form-container skill-form">
-        <form class="col s12">
+        <form class="col s12" (ngSubmit)="addSkill()" id="skill-form">
           <div class="row">
             <div class="input-field col s9">
               <p>
                   <label>
-                    <input name="group" type="radio" checked />
+                    <input name="group" type="radio" checked value="Tech Skill"/>
                     <span>Tech skill</span>
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input name="group" type="radio" />
+                    <input name="group" type="radio" value="Soft Skill"/>
                     <span>Soft skill</span>
                   </label>
                 </p>
             </div>
             <div class="input-field col s9">
-              <input  type="text" class="validate">
+              <input  type="text" class="validate" id="skill-name">
               <label >Skill</label>
             </div>
             <div class="input-field col s3">
-              <input  type="number" class="validate" min="0" max="100">
+              <input  type="number" class="validate" min="0" max="100" id="xp">
               <label >XP</label>
               <span class="helper-text" data-error="wrong" data-success="ok"> 1 - 100</span>
             </div>
@@ -181,22 +198,22 @@
     <div id="add-experience">
       <h5 class="center">Add Experience</h5>
       <div class="row form-container experience-form">
-        <form class="col s12">
+        <form class="col s12" (ngSubmit)="addExperience()" id="experience-form">
           <div class="row">
             <div class="input-field col s4">
-              <input type="text" class="validate">
+              <input type="text" class="validate" id="company">
               <label >Company</label>
             </div>
             <div class="input-field col s4">
-              <input type="text" class="validate">
+              <input type="text" class="validate" id="title">
               <label >Title</label>
             </div>
             <div class="input-field col s4">
-                <input type="text" class="validate">
+                <input type="text" class="validate" id="time-frame">
                 <label >Time frame</label>
               </div>
             <div class="input-field col s12">
-              <textarea id="textarea" class="materialize-textarea"></textarea>
+              <textarea id="textarea" class="materialize-textarea" id="description"></textarea>
               <label for="textarea">Description</label>
             </div>
           </div>
@@ -220,31 +237,31 @@
     <div id="add-reference">
       <h5 class="center">Add a Reference</h5>
       <div class="row form-container reference-form">
-        <form class="col s12">
+        <form class="col s12" (ngSubmit)="addReference()" id="reference-form">
           <div class="row">
             <div class="input-field col s6">
-              <input  type="text" class="validate">
+              <input  type="text" class="validate" id="first-name-reference">
               <label >First Name</label>
             </div>
             <div class="input-field col s6">
-              <input type="text" class="validate">
+              <input type="text" class="validate" id="last-name-reference">
               <label >Last Name</label>
             </div>
             <div class="input-field col s6">
-              <input type="text" class="validate">
+              <input type="text" class="validate" id="company-reference">
               <label >Company</label>
             </div>
             <div class="input-field col s6">
-              <input type="text" class="validate">
+              <input type="text" class="validate" id="relationship-reference">
               <label >Relationship</label>
             </div>
             <div class="input-field col s4">
-              <input type="tel" class="validate" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <input type="tel" class="validate" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phone-reference">
               <label >Phone</label>
               <span class="helper-text" data-error="wrong" data-success="ok"> eg. 301-333-4444</span>
             </div>
             <div class="input-field col s12">
-              <textarea id="textarea" class="materialize-textarea"></textarea>
+              <textarea id="textarea" class="materialize-textarea" id="description-reference"></textarea>
               <label for="textarea">Description</label>
             </div>
           </div>
