@@ -2,33 +2,35 @@
 
 
 <div class="row form-container">
-    <form class="col s12">
+    <form ngNativeValidate class="col s12" (ngSubmit)="register()"> 
       <div class="row">
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate">
+          <input id="first_name" type="text" class="validate" required>
           <label for="last_name">First Name</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate">
+          <input id="last_name" type="text" class="validate" required>
           <label for="last_name">Last Name</label>
         </div>
       </div>
 
       <div class="input-field col s12 my-input-field">
         <i class="fas fa-user prefix"></i>
-        <input id="username" type="text" class="validate" maxlength="15">
+        <input id="username" type="text" class="validate" required maxlength="15">
         <label for="username">Username</label>
+        <span class="helper-text" data-error="wrong" data-success="ok"> 15 char limit</span>
       </div>
       <div class="input-field col s12 my-input-field">
         <i class="fas fa-key prefix"></i>
-        <input id="password" type="password" class="validate">
+        <input id="password" type="password" class="validate" required minlength="7">
         <label for="password">Password</label>
+        <span class="helper-text" data-error="wrong" data-success="ok"> 7 char min</span>
       </div>
 
-      <button class="btn waves-effect waves-light btn-large my-button" type="submit" name="action">Register
+      <button class="btn my-button-effect waves-light btn-large my-button" type="submit" name="action">Register
         <i class="fas fa-user-plus right"></i>
       </button>
-      <button class="btn btn-large waves-effect waves-light red" type="reset">
+      <button class="btn btn-large my-button-effect waves-light red" type="reset">
           <i class="fas fa-times"></i>
       </button>
 

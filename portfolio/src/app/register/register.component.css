@@ -18,3 +18,7 @@
   text-decoration: underline;
   color: #ee6d74;
 }
+
+input {
+  text-align: start;
+}

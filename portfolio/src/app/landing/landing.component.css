@@ -50,3 +50,23 @@ h1, h2 {
   min-height: 300px;
   min-width: 500px;
 }
+
+.welcome {
+  font-family: monospace;
+  color: #ee6d74;
+}
+
+.my-logout-icon {
+  background-color: #ee6d74;
+  border-radius: 50%;
+  padding: 20px;
+  color: whitesmoke;
+  margin-right: 50px;
+  margin-left: -50px;
+  font-size: 40px;
+  transition: ease-in-out all 0.1s;
+} .my-logout-icon:hover {
+  transform: scale(1.10);
+} .my-logout-icon:active {
+  background-color: blueviolet;
+}

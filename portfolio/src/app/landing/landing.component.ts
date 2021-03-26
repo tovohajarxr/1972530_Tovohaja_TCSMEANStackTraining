@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { FormGroup, FormControl } from '@angular/forms';
 
 declare var M: any; /* Materialize tabs */
 
@@ -14,14 +13,16 @@ export class LandingComponent implements OnInit {
   softSkillsHTML = '';
   xpHTML = '';
   refHTML = '';
+  username = '';
 
-  constructor(router: Router) { }
+  constructor(public router: Router) { }
 
   ngOnInit(): void { /* Materialize tabs */
     const elem = document.querySelector('.tabs');
     const options = {};
     M.Tabs.init(elem, options);
     this.initOverviewPage();
+    this.displayWelcome();
     this.displaySkills();
     this.displayXPs();
     this.displayReferences();
@@ -362,4 +363,19 @@ initOverviewPage(): void {
     }
     this.refHTML = refData;
   }
+
+  /* --------------------- D I S P L A Y - W E L C O M E -------------------- */
+  displayWelcome(): void {
+    const credentials = JSON.parse(sessionStorage.getItem('credentials') || '{}');
+    this.username = credentials.username;
+  }
+
+  /* ======================= A U T H E N T I C A T I O N ==================== */
+
+  /* --------------------- L O G O U T -------------------------------------- */
+  logout(): void {
+    sessionStorage.removeItem('credentials');
+    this.router.navigate(['login']);
+  }
+
 }

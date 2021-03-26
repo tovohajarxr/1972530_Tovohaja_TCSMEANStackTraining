@@ -8,6 +8,7 @@ import { RegisterComponent } from './register/register.component';
 import { LandingComponent } from './landing/landing.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MyAuthGuard } from './myauthguard';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [MyAuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

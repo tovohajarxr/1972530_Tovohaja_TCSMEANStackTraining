@@ -12,9 +12,19 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void { }
 
-  homePage(): void {
+  login(): void {
+    console.log('==> homePage() ~ login ts');
     //   if credentials match up --> go to landing page i.e. portfolio
-    this.router.navigate(['home']);
+    const user = (document.getElementById('username') as HTMLInputElement).value;
+    const pwd = (document.getElementById('password') as HTMLInputElement).value;
+    const login = {username: user, password: pwd};
+    sessionStorage.setItem('login', JSON.stringify(login));
+
+    this.router.navigate(['landing']);
+  }
+
+  register(): void {
+    this.router.navigate(['register']);
   }
 
 }

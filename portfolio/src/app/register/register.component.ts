@@ -8,9 +8,22 @@ import { Router } from '@angular/router';
 })
 export class RegisterComponent implements OnInit {
 
-  constructor(router: Router) { }
+  constructor(public router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
+
+  register(): void {
+    if (sessionStorage.getItem('credentials') == null || sessionStorage.getItem('credentials') === undefined) {
+      const user = (document.getElementById('username') as HTMLInputElement).value;
+      const pwd = (document.getElementById('password') as HTMLInputElement).value;
+      const credentials = { username: user, password: pwd };
+
+      sessionStorage.setItem('credentials', JSON.stringify(credentials));
+      console.log(`successfully registered. Welcome ${user}!`);
+      this.router.navigate(['login']);
+    } else {
+      alert('Already registered!');
+    }
   }
 
 }
