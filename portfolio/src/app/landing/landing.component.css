@@ -9,7 +9,7 @@ h1, h2 {
 
 .my-skills-col {
   min-height: 300px;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .skills-header {
@@ -20,14 +20,14 @@ h1, h2 {
   font-size: 20px;
   transform: translateY(20px);
   margin-right: 5px;
+  color: white;
 }
 
-.my-experience {
-  background-color: lightgray;
-}
-
-.my-references {
-  background-color: lightgray;
+.my-references, .my-experience {
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgb(0, 0, 0, 0.50);
+  width: 90%;
 }
 
 .my-tabs {
@@ -53,11 +53,10 @@ h1, h2 {
 
 .welcome {
   font-family: monospace;
-  color: #ee6d74;
 }
 
 .my-logout-icon {
-  background-color: #ee6d74;
+  background-color: black;
   border-radius: 50%;
   padding: 20px;
   color: whitesmoke;
@@ -70,3 +69,28 @@ h1, h2 {
 } .my-logout-icon:active {
   background-color: blueviolet;
 }
+
+.add-title {
+  color: white;
+  font-size: 35px;
+  text-shadow: -3px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
+}
+
+/* TABS EDIT */
+.tabs .tab a{
+  color:#000;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+  background-color:#eee;
+  color:#000;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+  background-color:black;
+  color:white;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+  background-color:#000;
+} /*Color of underline*/

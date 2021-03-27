@@ -1,23 +1,23 @@
 <i class="fas fa-sign-out-alt my-logout-icon right" (click)="logout()"></i>
-<h1 class="welcome">My Portfolio</h1>
+<!-- <h1 class="welcome my-title">My Portfolio</h1> -->
 
-<h2 class="welcome"><i>Welcome {{username}}</i></h2>
+<h2 class="welcome my-title"><i>Welcome {{username}}</i></h2>
 
 <div class="container">
   <div class="row">
     <div class="col s12 my-tabs">
       <ul class="tabs">
-        <li class="tab col s3"><a class="active" href="#overview">Overview</a></li>
-        <li class="tab col s3"><a href="#add-skill">Add skill</a></li>
-        <li class="tab col s3"><a href="#add-experience">Add experience</a></li>
-        <li class="tab col s3"><a href="#add-reference">Add reference</a></li>
+        <li class="tab col s3"><a class="active" href="#overview"><b>Overview</b></a></li>
+        <li class="tab col s3"><a href="#add-skill"><b>Add skill</b></a></li>
+        <li class="tab col s3"><a href="#add-experience"><b>Add experience</b></a></li>
+        <li class="tab col s3"><a href="#add-reference"><b>Add reference</b></a></li>
       </ul>
     </div>
 
 <!-- ===================== OVERVIEW CONTENT ================================ -->
     <div id="overview">
       <!------------------- A B O U T ------------------->
-      <h5 class="grey-text text-darken-2 left-align">About</h5>
+      <h5 class="white-text text-darken-2 left-align add-title">About</h5>
       <div class="card-panel">
         <p>
           Frederic Chopin was a Polish-born pianist and composer of matchless
@@ -35,12 +35,12 @@
         <!-- skills twin header -->
         <div>
           <div class="skills-header col s12 m12 l6">
-              <i class="fas fa-code"></i>
-              <h5 class="grey-text text-darken-2">Technical Skills</h5>
+              <i class="fas fa-code add-title"></i>
+              <h5 class="white-text text-darken-2 add-title">Technical Skills</h5>
           </div>
           <div class="skills-header col s12 m12 l6">
-              <i class="fas fa-user-friends"></i>
-              <h5 class="grey-text text-darken-2">Soft Skills</h5>
+              <i class="fas fa-user-friends add-title"></i>
+              <h5 class="white-text text-darken-2 add-title">Soft Skills</h5>
           </div>
         </div>
         
@@ -93,7 +93,7 @@
         <!------------------- E X P E R I E N C E ------------------->
         <!-- skills items -->
         <div class="section experience scrollspy" id="experience-section">
-          <h5 class="grey-text text-darken-2">Experience</h5>
+          <h5 class="white-text text-darken-2 center add-title">Experience</h5>
 
           <!-- XP items -->
           <div class="row my-experience" id="experience-items" [innerHTML]="xpHTML">
@@ -125,7 +125,7 @@
         </div>
 
         <!------------------- R E F E R E N C E S ------------------->
-        <h5 class="grey-text text-darken-2 left-align">References</h5>
+        <h5 class="white-text text-darken-2 left-align center add-title">References</h5>
         <div class="row my-references" id="experience-items" [innerHTML]="refHTML">
           
           <!------------------ reference item model (deprecated) ----------->
@@ -153,7 +153,7 @@
 
 <!-- ===================== ADD SKILL FORM ================================== -->
     <div id="add-skill">
-      <h5 class="center">Add a Skill</h5>
+      <h5 class="center add-title">Add a Skill</h5>
       <div class="row form-container skill-form">
         <form class="col s12" (ngSubmit)="addSkill()" id="skill-form">
           <div class="row">
@@ -197,7 +197,7 @@
 
 <!-- ===================== ADD EXPERIENCE FORM ============================= -->
     <div id="add-experience">
-      <h5 class="center">Add Experience</h5>
+      <h5 class="center add-title">Add Experience</h5>
       <div class="row form-container experience-form">
         <form class="col s12" (ngSubmit)="addExperience()" id="experience-form">
           <div class="row">
@@ -236,7 +236,7 @@
 
 <!-- ===================== ADD REFERENCE FORM ============================== -->
     <div id="add-reference">
-      <h5 class="center">Add a Reference</h5>
+      <h5 class="center add-title">Add a Reference</h5>
       <div class="row form-container reference-form">
         <form class="col s12" (ngSubmit)="addReference()" id="reference-form">
           <div class="row">

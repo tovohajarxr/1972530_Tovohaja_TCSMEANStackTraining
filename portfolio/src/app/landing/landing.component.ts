@@ -374,7 +374,7 @@ initOverviewPage(): void {
 
   /* --------------------- L O G O U T -------------------------------------- */
   logout(): void {
-    sessionStorage.removeItem('credentials');
+    sessionStorage.removeItem('login');
     this.router.navigate(['login']);
   }
 

@@ -27,4 +27,12 @@ export class LoginComponent implements OnInit {
     this.router.navigate(['register']);
   }
 
+  resetUserField(): void {
+    ( document.getElementById('username') as HTMLInputElement ).value = '';
+  }
+
+  resetPassField(): void {
+    ( document.getElementById('password') as HTMLInputElement ).value = '';
+  }
+
 }

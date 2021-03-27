@@ -1,9 +1,43 @@
 /* ================================ R A W ================================ */
 a {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 17px;
+} .nav-link:hover {
+  background-color: whitesmoke;
+  color: black;
 }
 
 .my-logo {
   letter-spacing: 10px;
+}
+
+.fa-train {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: -10px;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.my-down {
+  transform: translateY(50px);
+}
+
+footer {
+  border: solid black 5px;
+  background-color: black;
+  height: 300px;
+  margin-top: 50px;
+}
+
+nav {
+  background-color: black;
 }

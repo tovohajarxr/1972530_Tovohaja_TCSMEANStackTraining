@@ -21,3 +21,14 @@ input {
 .my-sign-up-btn {
   background-color: gray;
 }
+
+.my-cancel {
+  color: gray;
+  font-size: 18px;
+  transition: all ease-in-out 0.1s;
+} .my-cancel:hover {
+  color: black;
+  transform: scale(1.10);
+} .my-cancel:active {
+  color: red;
+}

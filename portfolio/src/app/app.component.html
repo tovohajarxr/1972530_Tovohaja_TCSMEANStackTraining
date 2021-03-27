@@ -1,16 +1,45 @@
 
 <!-- Navigation bar -->
-<nav>
+<nav class="sticky-nav">
   <div class="nav-wrapper">
-    <a class="brand-logo my-logo">portfolio</a>
+    <a class="brand-logo my-logo"><i class="fas fa-train"></i></a>
+    <a class="brand-logo my-logo center">portfolio</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a routerLink="login">Login</a></li>
-      <li><a routerLink="register">Register</a></li>
-      <li><a routerLink="landing">Home</a></li>
+      <li><a class="nav-link" routerLink="login">Login</a></li>
+      <li><a class="nav-link" routerLink="register">Register</a></li>
+      <li><a class="nav-link" routerLink="landing">Home</a></li>
     </ul>
   </div>
 </nav>
 
-<div>
+<div class="my-down">
   <router-outlet></router-outlet>
 </div>
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text">P o r t f o l i o</h5>
+          <p class="grey-text text-lighten-4">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+              ab illo inventore veritatis et quasi architecto beatae vitae dicta
+              sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+              qui ratione voluptatem sequi nesciunt. 
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+              suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+              autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+              nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+              voluptas nulla pariatur?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+      © 2027 Copy .inc
+      </div>
+    </div>
+  </footer>
