@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+.everything {
+  text-align: center;
+}
+
+.my-content {
+  min-height: 400px;
+  background-image: url("../assets/water-drop.jpeg");
+  background-size: cover;
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.left {
+  margin: 20px;
+  text-align: center;
+}
+
+.title {
+  font-family: monospace;
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: #4050b6;
+  font-weight: bold;
+}

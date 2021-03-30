@@ -1,0 +1,26 @@
+<div class="everything">
+  <div class="header">
+    <button color="primary" mat-raised-button (click)="drawer.toggle()">
+      <i class="fas fa-tasks"></i>
+    </button>
+    <div class="title">todo</div>
+    <div class="title"></div>
+  </div>
+
+  <mat-drawer-container class="example-container">
+    <!-- Task form sidenav -->
+    <mat-drawer mode="side" #drawer>
+      <app-task></app-task>
+    </mat-drawer>
+
+    <!-- Todo list table - main content -->
+    <mat-drawer-content>
+      <div class="my-content">
+        <app-todo></app-todo>
+      </div>
+    </mat-drawer-content>
+
+  </mat-drawer-container>
+
+
+</div>

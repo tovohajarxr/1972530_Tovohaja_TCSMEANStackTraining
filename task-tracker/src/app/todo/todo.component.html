@@ -1,0 +1,21 @@
+
+<table>
+  <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Task</th>
+        <th>Deadline</th>
+      </tr>
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let t of tasks">
+      <td>{{ t.id }}</td>
+      <td>{{ t.name }}</td>
+      <td>{{ t.task }}</td>
+      <td>{{ t.deadline | date }}</td>
+    </tr>
+
+  </tbody>
+</table>

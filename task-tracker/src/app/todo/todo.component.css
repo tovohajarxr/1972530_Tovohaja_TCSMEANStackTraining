@@ -1,0 +1,51 @@
+table {
+  text-align: start;
+  margin: auto;
+  width: 75%;
+  border-collapse: collapse;
+}
+
+h1
+{
+  text-align: center;
+}
+
+th {
+  text-align: left;
+  /* background-color: black; */
+  background-color: #4050b6;
+  color: white;
+}
+
+tr:nth-child(even) {
+  /* background-color: lightgray; */
+  background-color: #e3e6ff;
+} tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+th, td {
+  padding: 10px;
+  padding-left: 40px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* = - - - - - - ROUNDED TABLE BORDERS - - - - - - - - = */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* the first 'th' within the first 'tr' of the 'thead': */
+thead tr:first-child th:first-child {
+  border-radius: 0.9em 0 0 0;
+}
+/* the last 'th' within the first 'tr' of the 'thead': */
+thead tr:first-child th:last-child {
+  border-radius: 0 0.9em 0 0;
+}
+/* the first 'td' within the last 'tr' of the 'tbody': */
+tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 0.9em;
+}
+/* the last 'td' within the last 'tr' of the 'tbody': */
+tbody tr:last-child td:last-child {
+  border-radius: 0 0 0.9em 0;
+}

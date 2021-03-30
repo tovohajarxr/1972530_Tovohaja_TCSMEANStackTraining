@@ -1,0 +1,52 @@
+{
+  "tasks": [
+    {
+      "id": "1546273",
+      "name": "Ajay",
+      "task": "Get pizza from Sicily",
+      "deadline": "May 15, 2021"
+    },
+    {
+      "id": "1244291",
+      "name": "Ramesh",
+      "task": "Build nuclear vehicle",
+      "deadline": "July 17, 2021"
+    },
+    {
+      "id": "1354129",
+      "name": "Rajesh",
+      "task": "Draw blueprints of Utopia",
+      "deadline": "August 15, 2021"
+    },
+    {
+      "id": "1882230",
+      "name": "Mahesh",
+      "task": "Collect 5 tons of coal",
+      "deadline": "December 25, 2021"
+    },
+    {
+      "id": "1977791",
+      "name": "Tovohaja",
+      "task": "Visit Alaska",
+      "deadline": "2021-11-27"
+    },
+    {
+      "id": "1963647",
+      "name": "Benny",
+      "task": "Be cooler than cool",
+      "deadline": "2021-07-10"
+    },
+    {
+      "id": "1973647",
+      "name": "Bobby",
+      "task": "Lorem ipsum everything",
+      "deadline": "2021-03-20"
+    },
+    {
+      "id": "1972532",
+      "name": "Kimmel",
+      "task": "Design new TV series",
+      "deadline": "2021-04-20"
+    }
+  ]
+}
