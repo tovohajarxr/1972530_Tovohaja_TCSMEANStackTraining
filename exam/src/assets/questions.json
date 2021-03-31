@@ -1,0 +1,117 @@
+{
+  "questions":[
+    
+    { "id": "1",
+    "description":"The four main divisions of philosophy are metaphysics, epistemology, axiology, and _____.",
+    "options":[
+      { "op":"a", "description": " a. bioethics" },
+      { "op":"b", "description": " b. logic" },
+      { "op":"c", "description": " c. aesthetics" },
+      { "op":"d", "description": " d. categorical logic" }
+    ],
+    "solution":"b"
+    },
+
+    { "id": "2",
+    "description":"The study of reality in the broadest sense, an inquiry into the elemental nature of the universe and the things in it, is known as _____.",
+    "options":[
+      { "op":"a", "description": " a. metaphysics" },
+      { "op":"b", "description": " b. epistemology" },
+      { "op":"c", "description": " c. quantum physics" },
+      { "op":"d", "description": " d. axiology" }
+    ],
+    "solution":"a"
+    },
+
+    { "id": "3",
+    "description":"Questions like “What is knowledge?” and “What is truth?” are mainstays in the branch of philosophy known as _____.",
+    "options":[
+      { "op":"a", "description": " a. logic" },
+      { "op":"b", "description": " b. metaphysics" },
+      { "op":"c", "description": " c. epistemology" },
+      { "op":"d", "description": " d. aesthetics" }
+    ],
+    "solution":"c"
+    },
+
+    { "id": "4",
+    "description":"For Socrates, an unexamined life is a tragedy because it results in grievous harm to _____.",
+    "options":[
+      { "op":"a", "description": " a. the state" },
+      { "op":"b", "description": " b. the justice system" },
+      { "op":"c", "description": " c. the body" },
+      { "op":"d", "description": " d. the soul" }
+    ],
+    "solution":"d"
+    },
+
+    { "id": "5",
+    "description":"For Socrates, the soul is harmed by lack of _____.",
+    "options":[
+      { "op":"a", "description": " a. knowledge" },
+      { "op":"b", "description": " b. wealth" },
+      { "op":"c", "description": " c. community" },
+      { "op":"d", "description": " d. courage" }
+    ],
+    "solution":"a"
+    },
+
+    { "id": "6",
+    "description":"A question-and-answer dialogue in which propositions are methodically scrutinized to uncover the truth is known as _____.",
+    "options":[
+      { "op":"a", "description": " a. an argument" },
+      { "op":"b", "description": " b. the Socratic method" },
+      { "op":"c", "description": " c. the Socratic jest" },
+      { "op":"d", "description": " d. a debate" }
+    ],
+    "solution":"b"
+    },
+
+
+    { "id": "7",
+    "description":"According to Socrates, a clear sign that a person has _____ is her exclusive pursuit of social status, wealth, power, and pleasure.",
+    "options":[
+      { "op":"a", "description": " a. philosophical ambition" },
+      { "op":"b", "description": " b. worldly wisdom" },
+      { "op":"c", "description": " c. exceptional desires" },
+      { "op":"d", "description": " d. an unhealthy soul" }
+    ],
+    "solution":"d"
+    },
+
+
+    { "id": "8",
+    "description":"The famous statement “An unexamined life is not worth living” is attributed to _____.",
+    "options":[
+      { "op":"a", "description": " a. Aristotle" },
+      { "op":"b", "description": " b. John Locke" },
+      { "op":"c", "description": " c. Socrates" },
+      { "op":"d", "description": " d. Plato" }
+    ],
+    "solution":"c"
+    },
+
+    { "id": "9",
+    "description":"Anselm assumes that a being that exists in reality is greater than a being that _____.",
+    "options":[
+      { "op":"a", "description": " a. is worshipped" },
+      { "op":"b", "description":  "b. is embodied" },
+      { "op":"c", "description": " c. exists only in the understanding" },
+      { "op":"d", "description": " d. exists without flaws" }
+    ],
+    "solution":"c"
+    },
+
+    { "id": "10",
+    "description":"According to Paley, we must conclude that a watch had an intelligent designer if the watch _____.",
+    "options":[
+      { "op":"a", "description": " a. shows purposefulness" },
+      { "op":"b", "description": " b. has a structure" },
+      { "op":"c", "description": " c. runs well" },
+      { "op":"d", "description": " d. is engraved" }
+    ],
+    "solution":"a"
+    }
+
+  ]
+}

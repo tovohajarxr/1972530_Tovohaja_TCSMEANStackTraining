@@ -1,0 +1,23 @@
+<h1 class="center title">Questionnaire</h1>
+<form #qRef="ngForm" (ngSubmit)="checkAnswers()">
+  <div *ngFor="let q of questions">
+    <div class="question">
+      <mat-label> 
+        ({{q.id}}) {{q.description}}
+      </mat-label>
+      <mat-radio-group aria-label="Choose something!" [attr.id]=q.id>
+        <mat-radio-button value="a" (change)="updateAnswer($event)"> {{q.options[0].description}} </mat-radio-button>
+        <mat-radio-button value="b" (change)="updateAnswer($event)"> {{q.options[1].description}} </mat-radio-button>
+        <mat-radio-button value="c" (change)="updateAnswer($event)"> {{q.options[2].description}} </mat-radio-button>
+        <mat-radio-button value="d" (change)="updateAnswer($event)"> {{q.options[3].description}} </mat-radio-button>
+      </mat-radio-group>
+    </div>
+  </div>
+  
+  <div class="center">
+    <h3 id="results" class="results hidden">{{correct}} out of 10</h3>
+    <button mat-stroked-button color="primary" type="submit" class="my-submit"
+    [disabled]="!qRef.valid"> Submit </button>
+  </div>
+
+</form>

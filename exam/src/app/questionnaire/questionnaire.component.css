@@ -1,0 +1,57 @@
+.question, mat-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+mat-radio-button + mat-radio-button {
+  margin-top: 5px;
+}
+
+mat-radio-button {
+  width: 100px; /* prevents accidental clicks far outside checking area */
+}
+
+mat-label {
+  font-weight: bold;
+}
+
+.my-submit {
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px 100px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 20px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.results {
+  font-weight: bold;
+}
