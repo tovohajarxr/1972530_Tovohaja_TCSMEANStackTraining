@@ -1,0 +1,23 @@
+[
+	{
+		"firstName": "Bambam",
+		"lastName": "Jamaine",
+		"gender": "F",
+		"email": "bambam@bam.com",
+		"timestamp": "07/11/53222 13:53"
+	},
+	{
+		"firstName": "Radish",
+		"lastName": "Vegoshjisk",
+		"gender": "M",
+		"email": "radish@tsc.com",
+		"timestamp": "08/11/53222 00:25"
+	},
+	{
+		"firstName": "Minnie",
+		"lastName": "Polosch",
+		"gender": "F",
+		"email": "minnie@disney.com",
+		"timestamp": "08/11/53222 08:25"
+	}
+]
