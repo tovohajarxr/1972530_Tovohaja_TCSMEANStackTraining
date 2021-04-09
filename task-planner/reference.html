@@ -1,0 +1,58 @@
+<!-- ================ Add Task ================ -->
+<h1>Add Task</h1>
+<form action="/addTask" method="GET">
+  <label>Employee Id: </label>
+  <input matInput type="number" name="empId" required>
+<br/>
+  <label>Task Id: </label>
+  <input matInput type="number" name="taskId" required>
+<br/>
+  <label>Task: </label>
+  <input matInput type="text" name="task" required>
+<br/>
+  <label>Deadline: </label>
+  <input type="date" name="deadline" required>
+<br/>
+  <button type="submit">ADD</button>
+  <button type="reset">RESET</button>
+</form>
+
+<!-- ================ Delete Task ================ -->
+<h1>Delete Task</h1>
+<form action="/deleteTask" method="GET">
+  <label>Task Id: </label>
+  <input type="number" name="taskId" required>
+<br/>
+  <button type="submit">DELETE</button>
+  <button type="reset">RESET</button>
+</form>
+
+<!-- ================ List All Tasks ================ -->
+<h1>List all tasks</h1>
+<form action="/ListAllTasks">
+  <button type="submit">ALL TASKS</button>
+</form>
+
+<!-- ================ Table of Tasks ================ -->
+<table>
+  <thead>
+    <!-- Table header -->
+      <tr>
+        <th>Employee Id</th>
+        <th>Task Id</th>
+        <th>Task</th>
+        <th>Deadline</th>
+      </tr>
+  </thead>
+  <tbody>
+
+    <!-- Table entry -->
+    <tr>
+      <td>empId</td>
+      <td>taskId</td>
+      <td>task</td>
+      <td>deadline</td>
+    </tr>
+
+  </tbody>
+</table>
