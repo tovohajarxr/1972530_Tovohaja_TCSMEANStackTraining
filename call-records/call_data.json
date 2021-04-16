@@ -1,0 +1,842 @@
+[
+  {
+    "number": "770-279-1357",
+    "type": "Landline",
+    "location": "Lilburn",
+    "duration": "27 min",
+    "charge": "$6"
+  },
+  {
+    "number": "201-356-7438",
+    "type": "Landline",
+    "location": "Newark",
+    "duration": "29 min",
+    "charge": "$13"
+  },
+  {
+    "number": "906-253-3529",
+    "type": "Landline",
+    "location": "Sault Sainte Marie",
+    "duration": "42 min",
+    "charge": "$13"
+  },
+  {
+    "number": "510-283-4830",
+    "type": "Landline",
+    "location": "El Sobrante",
+    "duration": "78 min",
+    "charge": "$2"
+  },
+  {
+    "number": "434-923-0280",
+    "type": "Landline",
+    "location": "Charlottesville",
+    "duration": "66 min",
+    "charge": "$10"
+  },
+  {
+    "number": "574-440-1097",
+    "type": "Cell",
+    "location": "South Bend",
+    "duration": "78 min",
+    "charge": "$3"
+  },
+  {
+    "number": "440-887-2706",
+    "type": "Landline",
+    "location": "Cleveland",
+    "duration": "10 min",
+    "charge": "$3"
+  },
+  {
+    "number": "408-663-1083",
+    "type": "Cell",
+    "location": "Sunnyvale",
+    "duration": "85 min",
+    "charge": "$12"
+  },
+  {
+    "number": "516-470-4302",
+    "type": "Landline",
+    "location": "Hicksville",
+    "duration": "10 min",
+    "charge": "$7"
+  },
+  {
+    "number": "319-578-7401",
+    "type": "Landline",
+    "location": "Swisher",
+    "duration": "32 min",
+    "charge": "$5"
+  },
+  {
+    "number": "814-965-9303",
+    "type": "Landline",
+    "location": "Johnsonburg",
+    "duration": "18 min",
+    "charge": "$7"
+  },
+  {
+    "number": "424-275-1441",
+    "type": "Landline",
+    "location": "Hermosa Beach",
+    "duration": "35 min",
+    "charge": "$10"
+  },
+  {
+    "number": "360-738-7329",
+    "type": "Landline",
+    "location": "Bellingham",
+    "duration": "63 min",
+    "charge": "$13"
+  },
+  {
+    "number": "405-442-3166",
+    "type": "Landline",
+    "location": "Purcell",
+    "duration": "26 min",
+    "charge": "$9"
+  },
+  {
+    "number": "702-599-9621",
+    "type": "Cell",
+    "location": "Las Vegas",
+    "duration": "13 min",
+    "charge": "$6"
+  },
+  {
+    "number": "321-406-7041",
+    "type": "Landline",
+    "location": "Cocoa Beach",
+    "duration": "62 min",
+    "charge": "$3"
+  },
+  {
+    "number": "339-645-4531",
+    "type": "Landline",
+    "location": "Woburn",
+    "duration": "83 min",
+    "charge": "$5"
+  },
+  {
+    "number": "620-805-9439",
+    "type": "Landline",
+    "location": "Garden City",
+    "duration": "79 min",
+    "charge": "$8"
+  },
+  {
+    "number": "207-636-7439",
+    "type": "Landline",
+    "location": "Sanford",
+    "duration": "72 min",
+    "charge": "$12"
+  },
+  {
+    "number": "603-975-8715",
+    "type": "Landline",
+    "location": "Boscawen",
+    "duration": "24 min",
+    "charge": "$7"
+  },
+  {
+    "number": "505-569-0444",
+    "type": "Landline",
+    "location": "Belen",
+    "duration": "56 min",
+    "charge": "$4"
+  },
+  {
+    "number": "512-591-6105",
+    "type": "Landline",
+    "location": "Georgetown",
+    "duration": "32 min",
+    "charge": "$7"
+  },
+  {
+    "number": "904-510-7264",
+    "type": "Cell",
+    "location": "Jacksonville",
+    "duration": "56 min",
+    "charge": "$4"
+  },
+  {
+    "number": "314-714-3167",
+    "type": "Landline",
+    "location": "Ladue",
+    "duration": "29 min",
+    "charge": "$11"
+  },
+  {
+    "number": "412-855-6095",
+    "type": "Cell",
+    "location": "Pittsburgh",
+    "duration": "77 min",
+    "charge": "$3"
+  },
+  {
+    "number": "919-635-4242",
+    "type": "Landline",
+    "location": "Mount Olive",
+    "duration": "53 min",
+    "charge": "$7"
+  },
+  {
+    "number": "787-391-6725",
+    "type": "Cell",
+    "location": "Trujillo Alto",
+    "duration": "77 min",
+    "charge": "$14"
+  },
+  {
+    "number": "917-529-5405",
+    "type": "Landline",
+    "location": "New York",
+    "duration": "81 min",
+    "charge": "$11"
+  },
+  {
+    "number": "501-636-8504",
+    "type": "Landline",
+    "location": "Little Rock",
+    "duration": "51 min",
+    "charge": "$10"
+  },
+  {
+    "number": "214-780-6004",
+    "type": "Landline",
+    "location": "Dallas",
+    "duration": "71 min",
+    "charge": "$5"
+  },
+  {
+    "number": "313-767-3786",
+    "type": "Landline",
+    "location": "Melvindale",
+    "duration": "51 min",
+    "charge": "$2"
+  },
+  {
+    "number": "803-423-8544",
+    "type": "Landline",
+    "location": "Bishopville",
+    "duration": "65 min",
+    "charge": "$9"
+  },
+  {
+    "number": "325-234-5300",
+    "type": "Cell",
+    "location": "San Angelo",
+    "duration": "58 min",
+    "charge": "$11"
+  },
+  {
+    "number": "832-784-6433",
+    "type": "Cell",
+    "location": "Baytown",
+    "duration": "16 min",
+    "charge": "$6"
+  },
+  {
+    "number": "561-907-2587",
+    "type": "Cell",
+    "location": "W Plm Bch",
+    "duration": "23 min",
+    "charge": "$2"
+  },
+  {
+    "number": "810-676-9938",
+    "type": "Landline",
+    "location": "Marine City",
+    "duration": "83 min",
+    "charge": "$10"
+  },
+  {
+    "number": "616-220-5321",
+    "type": "Cell",
+    "location": "Grand Rapids",
+    "duration": "31 min",
+    "charge": "$9"
+  },
+  {
+    "number": "419-494-3267",
+    "type": "Cell",
+    "location": "Bowling Green",
+    "duration": "63 min",
+    "charge": "$14"
+  },
+  {
+    "number": "978-827-9438",
+    "type": "Landline",
+    "location": "Ashburnham",
+    "duration": "86 min",
+    "charge": "$13"
+  },
+  {
+    "number": "202-500-0835",
+    "type": "Landline",
+    "location": "Washington",
+    "duration": "17 min",
+    "charge": "$12"
+  },
+  {
+    "number": "217-947-2368",
+    "type": "Landline",
+    "location": "Elkhart",
+    "duration": "50 min",
+    "charge": "$7"
+  },
+  {
+    "number": "417-492-8920",
+    "type": "Landline",
+    "location": "Sparta",
+    "duration": "86 min",
+    "charge": "$7"
+  },
+  {
+    "number": "479-981-5075",
+    "type": "Cell",
+    "location": "Eureka Spgs",
+    "duration": "75 min",
+    "charge": "$10"
+  },
+  {
+    "number": "832-692-0135",
+    "type": "Cell",
+    "location": "Houston",
+    "duration": "86 min",
+    "charge": "$13"
+  },
+  {
+    "number": "210-699-4678",
+    "type": "Landline",
+    "location": "San Antonio",
+    "duration": "79 min",
+    "charge": "$6"
+  },
+  {
+    "number": "801-333-9459",
+    "type": "Landline",
+    "location": "S Salt Lake",
+    "duration": "54 min",
+    "charge": "$3"
+  },
+  {
+    "number": "701-528-8979",
+    "type": "Landline",
+    "location": "Zahl",
+    "duration": "47 min",
+    "charge": "$3"
+  },
+  {
+    "number": "805-499-7149",
+    "type": "Landline",
+    "location": "Newbury Park",
+    "duration": "71 min",
+    "charge": "$13"
+  },
+  {
+    "number": "202-688-4182",
+    "type": "Landline",
+    "location": "Washington",
+    "duration": "57 min",
+    "charge": "$4"
+  },
+  {
+    "number": "805-385-0026",
+    "type": "Landline",
+    "location": "Oxnard",
+    "duration": "49 min",
+    "charge": "$4"
+  },
+  {
+    "number": "812-300-1011",
+    "type": "Landline",
+    "location": "Ellettsville",
+    "duration": "22 min",
+    "charge": "$4"
+  },
+  {
+    "number": "678-425-1576",
+    "type": "Landline",
+    "location": "Winder",
+    "duration": "77 min",
+    "charge": "$4"
+  },
+  {
+    "number": "712-380-1541",
+    "type": "Cell",
+    "location": "Estherville",
+    "duration": "20 min",
+    "charge": "$8"
+  },
+  {
+    "number": "507-224-9008",
+    "type": "Landline",
+    "location": "Taunton",
+    "duration": "33 min",
+    "charge": "$7"
+  },
+  {
+    "number": "202-761-9886",
+    "type": "Landline",
+    "location": "Washington",
+    "duration": "60 min",
+    "charge": "$13"
+  },
+  {
+    "number": "914-294-9254",
+    "type": "Cell",
+    "location": "White Plains",
+    "duration": "71 min",
+    "charge": "$9"
+  },
+  {
+    "number": "605-427-4464",
+    "type": "Landline",
+    "location": "Madison",
+    "duration": "15 min",
+    "charge": "$13"
+  },
+  {
+    "number": "801-919-4905",
+    "type": "Cell",
+    "location": "Provo",
+    "duration": "69 min",
+    "charge": "$12"
+  },
+  {
+    "number": "402-591-9271",
+    "type": "Landline",
+    "location": "Omaha",
+    "duration": "70 min",
+    "charge": "$14"
+  },
+  {
+    "number": "215-676-7579",
+    "type": "Landline",
+    "location": "Philadelphia",
+    "duration": "45 min",
+    "charge": "$7"
+  },
+  {
+    "number": "608-697-1111",
+    "type": "Cell",
+    "location": "Portage",
+    "duration": "71 min",
+    "charge": "$14"
+  },
+  {
+    "number": "479-263-1201",
+    "type": "Cell",
+    "location": "Fayetteville",
+    "duration": "65 min",
+    "charge": "$11"
+  },
+  {
+    "number": "336-263-1871",
+    "type": "Cell",
+    "location": "Burlington",
+    "duration": "31 min",
+    "charge": "$4"
+  },
+  {
+    "number": "240-790-1355",
+    "type": "Landline",
+    "location": "Mount Rainier",
+    "duration": "36 min",
+    "charge": "$11"
+  },
+  {
+    "number": "810-603-7102",
+    "type": "Landline",
+    "location": "Grand Blanc",
+    "duration": "11 min",
+    "charge": "$5"
+  },
+  {
+    "number": "678-253-0070",
+    "type": "Landline",
+    "location": "Conyers",
+    "duration": "12 min",
+    "charge": "$4"
+  },
+  {
+    "number": "712-426-3511",
+    "type": "Landline",
+    "location": "Ayrshire",
+    "duration": "83 min",
+    "charge": "$9"
+  },
+  {
+    "number": "508-219-1913",
+    "type": "Landline",
+    "location": "Easton",
+    "duration": "74 min",
+    "charge": "$9"
+  },
+  {
+    "number": "208-399-1243",
+    "type": "Cell",
+    "location": "Driggs",
+    "duration": "83 min",
+    "charge": "$14"
+  },
+  {
+    "number": "979-251-4446",
+    "type": "Landline",
+    "location": "Brenham",
+    "duration": "75 min",
+    "charge": "$12"
+  },
+  {
+    "number": "901-410-3174",
+    "type": "Landline",
+    "location": "Memphis",
+    "duration": "81 min",
+    "charge": "$9"
+  },
+  {
+    "number": "504-307-5203",
+    "type": "Cell",
+    "location": "Kenner",
+    "duration": "30 min",
+    "charge": "$10"
+  },
+  {
+    "number": "360-325-4055",
+    "type": "Landline",
+    "location": "Lynden",
+    "duration": "36 min",
+    "charge": "$8"
+  },
+  {
+    "number": "256-626-1354",
+    "type": "Cell",
+    "location": "Sylacauga",
+    "duration": "64 min",
+    "charge": "$8"
+  },
+  {
+    "number": "832-619-9750",
+    "type": "Landline",
+    "location": "Houston",
+    "duration": "10 min",
+    "charge": "$11"
+  },
+  {
+    "number": "804-241-6637",
+    "type": "Cell",
+    "location": "Richmond",
+    "duration": "79 min",
+    "charge": "$7"
+  },
+  {
+    "number": "425-905-9814",
+    "type": "Landline",
+    "location": "Everett",
+    "duration": "30 min",
+    "charge": "$3"
+  },
+  {
+    "number": "501-547-3506",
+    "type": "Cell",
+    "location": "Hot Springs",
+    "duration": "46 min",
+    "charge": "$6"
+  },
+  {
+    "number": "843-358-7712",
+    "type": "Landline",
+    "location": "Aynor",
+    "duration": "72 min",
+    "charge": "$12"
+  },
+  {
+    "number": "207-229-0164",
+    "type": "Cell",
+    "location": "Biddeford",
+    "duration": "77 min",
+    "charge": "$11"
+  },
+  {
+    "number": "717-960-1102",
+    "type": "Landline",
+    "location": "Carlisle",
+    "duration": "86 min",
+    "charge": "$14"
+  },
+  {
+    "number": "321-336-5664",
+    "type": "Landline",
+    "location": "Cocoa Beach",
+    "duration": "81 min",
+    "charge": "$3"
+  },
+  {
+    "number": "225-323-3250",
+    "type": "Landline",
+    "location": "Donaldsonville",
+    "duration": "22 min",
+    "charge": "$2"
+  },
+  {
+    "number": "802-812-9988",
+    "type": "Landline",
+    "location": "Vergennes",
+    "duration": "29 min",
+    "charge": "$10"
+  },
+  {
+    "number": "615-715-7921",
+    "type": "Cell",
+    "location": "Nashville",
+    "duration": "82 min",
+    "charge": "$5"
+  },
+  {
+    "number": "505-219-5372",
+    "type": "Cell",
+    "location": "Albuquerque",
+    "duration": "77 min",
+    "charge": "$9"
+  },
+  {
+    "number": "410-453-1951",
+    "type": "Landline",
+    "location": "Towson",
+    "duration": "52 min",
+    "charge": "$2"
+  },
+  {
+    "number": "434-517-0162",
+    "type": "Landline",
+    "location": "South Boston",
+    "duration": "38 min",
+    "charge": "$4"
+  },
+  {
+    "number": "810-931-3659",
+    "type": "Cell",
+    "location": "Flint",
+    "duration": "36 min",
+    "charge": "$3"
+  },
+  {
+    "number": "906-942-2136",
+    "type": "Landline",
+    "location": "Skandia",
+    "duration": "53 min",
+    "charge": "$13"
+  },
+  {
+    "number": "239-338-4973",
+    "type": "Landline",
+    "location": "Fort Myers",
+    "duration": "57 min",
+    "charge": "$5"
+  },
+  {
+    "number": "814-757-9626",
+    "type": "Landline",
+    "location": "Russell",
+    "duration": "47 min",
+    "charge": "$8"
+  },
+  {
+    "number": "724-631-5581",
+    "type": "Landline",
+    "location": "Zelienople",
+    "duration": "69 min",
+    "charge": "$14"
+  },
+  {
+    "number": "980-829-8530",
+    "type": "Cell",
+    "location": "Statesville",
+    "duration": "66 min",
+    "charge": "$14"
+  },
+  {
+    "number": "951-216-5815",
+    "type": "Cell",
+    "location": "Temecula",
+    "duration": "39 min",
+    "charge": "$14"
+  },
+  {
+    "number": "828-515-0883",
+    "type": "Landline",
+    "location": "Leicester",
+    "duration": "46 min",
+    "charge": "$10"
+  },
+  {
+    "number": "309-410-4327",
+    "type": "Landline",
+    "location": "Peoria",
+    "duration": "87 min",
+    "charge": "$6"
+  },
+  {
+    "number": "513-839-5639",
+    "type": "Cell",
+    "location": "Oxford",
+    "duration": "71 min",
+    "charge": "$9"
+  },
+  {
+    "number": "617-692-6135",
+    "type": "Landline",
+    "location": "Boston",
+    "duration": "44 min",
+    "charge": "$14"
+  },
+  {
+    "number": "561-282-7623",
+    "type": "Landline",
+    "location": "Palm Beach",
+    "duration": "56 min",
+    "charge": "$10"
+  },
+  {
+    "number": "706-271-1040",
+    "type": "Landline",
+    "location": "Dalton",
+    "duration": "59 min",
+    "charge": "$6"
+  },
+  {
+    "number": "802-904-6701",
+    "type": "Landline",
+    "location": "Stowe",
+    "duration": "32 min",
+    "charge": "$10"
+  },
+  {
+    "number": "914-602-6266",
+    "type": "Landline",
+    "location": "White Plains",
+    "duration": "59 min",
+    "charge": "$11"
+  },
+  {
+    "number": "406-696-0505",
+    "type": "Cell",
+    "location": "Billings",
+    "duration": "68 min",
+    "charge": "$4"
+  },
+  {
+    "number": "718-258-8223",
+    "type": "Landline",
+    "location": "Brooklyn",
+    "duration": "38 min",
+    "charge": "$14"
+  },
+  {
+    "number": "571-244-9626",
+    "type": "Cell",
+    "location": "Arlington",
+    "duration": "10 min",
+    "charge": "$3"
+  },
+  {
+    "number": "423-710-7614",
+    "type": "Cell",
+    "location": "Chattanooga",
+    "duration": "78 min",
+    "charge": "$9"
+  },
+  {
+    "number": "334-757-2474",
+    "type": "Cell",
+    "location": "Lafayette",
+    "duration": "75 min",
+    "charge": "$12"
+  },
+  {
+    "number": "309-676-4140",
+    "type": "Landline",
+    "location": "Peoria",
+    "duration": "51 min",
+    "charge": "$4"
+  },
+  {
+    "number": "307-468-8515",
+    "type": "Landline",
+    "location": "Upton",
+    "duration": "85 min",
+    "charge": "$14"
+  },
+  {
+    "number": "414-751-8818",
+    "type": "Landline",
+    "location": "Milwaukee",
+    "duration": "19 min",
+    "charge": "$5"
+  },
+  {
+    "number": "208-524-3131",
+    "type": "Landline",
+    "location": "Idaho Falls",
+    "duration": "16 min",
+    "charge": "$8"
+  },
+  {
+    "number": "347-895-4654",
+    "type": "Landline",
+    "location": "Brooklyn",
+    "duration": "22 min",
+    "charge": "$3"
+  },
+  {
+    "number": "256-318-2809",
+    "type": "Cell",
+    "location": "Decatur",
+    "duration": "14 min",
+    "charge": "$3"
+  },
+  {
+    "number": "843-569-4236",
+    "type": "Landline",
+    "location": "Charleston",
+    "duration": "84 min",
+    "charge": "$7"
+  },
+  {
+    "number": "814-407-6010",
+    "type": "Landline",
+    "location": "Williamsburg",
+    "duration": "84 min",
+    "charge": "$5"
+  },
+  {
+    "number": "570-269-2511",
+    "type": "Cell",
+    "location": "Stroudsburg",
+    "duration": "84 min",
+    "charge": "$7"
+  },
+  {
+    "number": "917-334-1369",
+    "type": "Cell",
+    "location": "New York",
+    "duration": "88 min",
+    "charge": "$13"
+  },
+  {
+    "number": "321-946-1785",
+    "type": "Cell",
+    "location": "Orlando",
+    "duration": "29 min",
+    "charge": "$2"
+  },
+  {
+    "number": "415-988-8173",
+    "type": "Landline",
+    "location": "San Francisco",
+    "duration": "11 min",
+    "charge": "$12"
+  }
+]
