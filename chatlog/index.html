@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- connected socket library file -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+      * {
+        text-align: center;
+        margin: 10px;
+      }
+      
+      .chatbox {
+        border: solid black 2px;
+        background-color: lightsalmon;
+        color: black;
+        border-radius: 25px;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        margin: auto;
+        text-align: center
+      }
+
+      #name {
+        margin-bottom: 20px;
+      }
+      
+      #msg {
+        height: 100px;
+        width: 80%;
+      }
+
+      input,textarea {
+        text-align: left;
+      }
+
+      .fas {
+        font-size: 20px;
+        margin-bottom: 0px;
+      }
+    </style>
+    <script>
+      let socket = io();      
+
+      function chat() {
+        console.log('chatting...')
+        const data = {
+          name: document.getElementById('name').value,
+          msg: document.getElementById('msg').value,
+        }
+        socket.emit("chat", data);
+        document.getElementById('form').reset()   
+      }
+    </script>
+</head>
+<body>
+  <div class="chatbox">
+    <form id="form">
+      <label for="name">
+        <i class="fas fa-user"></i>Name
+      </label><br/>
+      <input type="text" name="name" id="name"/><br/>
+      <label for="msg">
+        <i class="fas fa-comment"></i>Message
+      </label><br/>
+      <textarea type="text" name="msg" id="msg"></textarea><br/>
+      <input type="button" value="send" onclick="chat()">
+      <input type="reset" value="reset"/>
+    </form>
+  </div>
+
+</body>
+</html>
