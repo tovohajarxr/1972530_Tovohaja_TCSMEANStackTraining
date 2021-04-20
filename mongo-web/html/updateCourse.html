@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Update Course</title>
+  <script>
+    function updateCourse() {
+      let id = document.getElementById('update_course_id').value;
+      let namt = document.getElementById('update_amount').value;
+      fetch('http://localhost:4200/course/updateCourseDetails', {
+        method: 'PUT',
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8'
+         },
+        body: JSON.stringify({cid: id, amt: namt})
+      })
+      .then(res => res.text())
+      .then(res => console.log(res));
+      document.getElementById('update_form').reset();
+    }
+  </script>
+</head>
+<body>
+  <h1>Update Course</h1>
+  <form id="update_form"> 
+    <label for="course_id">Course Id</label><br/>
+      <input type="number" name="cid" id="update_course_id"><br/><br/>
+    <label for="amount">Amount</label><br/>
+      <input type="number" name="amt" id="update_amount"><br/><br/>
+    <button type="button" onclick="updateCourse()">Update</button>     
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>

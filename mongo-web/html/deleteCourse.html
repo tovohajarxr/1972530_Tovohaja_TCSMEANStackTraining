@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Add Course</title>
+  <script>
+    function deleteCourse() {
+      let id = document.getElementById('delete_course_id').value;
+      fetch('http://localhost:4200/course/deleteCourseById/' + id, {
+        method: 'DELETE',
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8'
+         },
+        body: JSON.stringify({cid: id})
+      })
+      .then(res => res.text())
+      .then(res => console.log(res));
+      document.getElementById('delete_form').reset();
+    }    
+  </script>
+</head>
+<body>
+  <h1>Delete Course</h1>
+  <form id="delete_form"> 
+    <label for="course_id">Course Id</label><br/>
+      <input type="number" name="cid" id="delete_course_id"><br/><br/>
+    <button type="button" onclick="deleteCourse()">Delete</button> <!-- TODO -->
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>
